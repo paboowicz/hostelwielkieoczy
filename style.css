@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+header {
+  background-color: #364;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+img {
+  max-width: 100%;
+}
+
+p {
+  width: 80%;
+  text-align: center;
+  margin: 20px auto;
+  font-size: 18px;
+}
+
+footer {
+  background-color: #364;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+@media (max-width: 480px) {
+  /* tutaj można dodać stylizację specjalnie dla urządzeń o szerokości ekranu do 480px */
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  /* tutaj można dodać stylizację specjalnie dla urządzeń o szerokości ekranu od 481px do 768px */
+}
+
+@media (min-width: 769px) {
+  /* tutaj można dodać stylizację specjalnie dla urządzeń o szerokości ekranu powyżej 769px */
+}
